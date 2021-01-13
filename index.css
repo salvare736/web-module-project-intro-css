@@ -42,3 +42,90 @@ table {
 	border-spacing: 0;
 }
 
+.pageContainer {
+	border: 2px solid gray;
+}
+
+nav {
+	display: block;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+}
+  
+.headerNav a:first-child {
+	background-color: #FF764E;
+}
+
+.headerNav a {
+	background-color: #5ED3EB;
+}
+
+.headerNav a:last-child {
+	background-color: #FFCD69;
+}
+
+.footerNav a:first-child {
+	background-color: #FF764E;
+}
+
+.footerNav a {
+	background-color: #5ED3EB;
+}
+
+.footerNav a:last-child {
+	background-color: #FFCD69;
+}
+
+.pageContainer {
+	padding: 50px;
+	margin: 50px;
+}
+
+.bodyPart2 img {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.bodyPart3 img {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.headerNav {
+	margin: 5px 50px 50px 50px;
+}
+
+.headerImage img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.footerImage img {
+	display: block;
+	height: 250px;
+	width: 100%;
+	padding-bottom: 75px;
+	background-color: #DEB887;
+	margin-bottom: 20px;
+}
+
+.headerNav {
+	text-align: center;
+}
+
+.footerNav {
+	margin-top: -65px;
+	text-align: center;
+}
