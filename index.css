@@ -42,6 +42,22 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+p {
+	font-family: Roboto Mono, monospace;
+}
+
+h1 {
+	font-family: Chelsea Market, cursive;
+	font-size: 32px;
+	font-weight: bold;
+}
+
 .pageContainer {
 	border: 2px solid gray;
 }
@@ -51,12 +67,15 @@ nav {
 }
 
 nav a {
+	border-radius: 12%;
 	text-decoration: none;
 	color: white;
-	padding: 12px;
-	margin-right: 5%;
-	margin-left: 5%;
+	padding: 8px;
+	margin-right: 4%;
+	margin-left: 4%;
 	text-align: center;
+	font-family: Roboto Mono, monospace;
+	font-size: 12px;
 }
   
 .headerNav a:first-child {
@@ -114,10 +133,10 @@ nav a {
 
 .footerImage img {
 	display: block;
-	height: 250px;
+	height: 150px;
 	width: 100%;
 	padding-bottom: 75px;
-	background-color: #DEB887;
+	background-color: #F9E7DC;
 	margin-bottom: 20px;
 }
 
