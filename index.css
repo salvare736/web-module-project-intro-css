@@ -107,11 +107,46 @@ nav a {
 	margin: 50px;
 }
 
+.bodyPart1 {
+	display: block;
+	padding: 15px;
+	margin: 15px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #DDB9A3;
+	color: white;
+}
+
+.bodyPart2 {
+	display: block;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+
 .bodyPart2 img {
 	display: block;
 	height: 80px;
 	width: 80px;
 	margin: 10px;
+	padding-left: 32%;
+}
+
+.bodyPart3 {
+	display: block;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 45px;
+	font-size: 12px;
+	text-align: center;
 }
 
 .bodyPart3 img {
@@ -119,6 +154,7 @@ nav a {
 	height: 80px;
 	width: 80px;
 	margin: 10px;
+	padding-left: 32%;
 }
 
 .headerNav {
