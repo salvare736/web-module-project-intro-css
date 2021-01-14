@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+p {
+	font-family: Roboto Mono, monospace;
+}
+
+h1 {
+	font-family: Chelsea Market, cursive;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.pageContainer {
+	border: 2px solid gray;
+	width: 70%;
+}
+
+nav {
+	display: block;
+}
+
+nav a {
+	border-radius: 12%;
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin-right: 4%;
+	margin-left: 4%;
+	text-align: center;
+	font-family: Roboto Mono, monospace;
+	font-size: 12px;
+}
+  
+.headerNav a:first-child {
+	background-color: #FF764E;
+}
+
+.headerNav a {
+	background-color: #5ED3EB;
+}
+
+.headerNav a:last-child {
+	background-color: #FFCD69;
+}
+
+.footerNav a:first-child {
+	background-color: #FF764E;
+}
+
+.footerNav a {
+	background-color: #5ED3EB;
+}
+
+.footerNav a:last-child {
+	background-color: #FFCD69;
+}
+
+.pageContainer {
+	padding: 50px;
+	margin: 50px;
+}
+
+.bodyPart1 {
+	display: block;
+	padding: 15px;
+	margin: 15px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #DDB9A3;
+	color: white;
+}
+
+.bodyPart2 {
+	display: block;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.bodyPart2 img {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	padding-left: 32%;
+}
+
+.bodyPart3 {
+	display: block;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 45px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.bodyPart3 img {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	padding-left: 32%;
+}
+
+.headerNav {
+	margin: 5px 50px 50px 50px;
+}
+
+.headerImage img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+.headerImage {
+	display: inline-block;
+	width: 30%;
+}
+
+.headerMessage {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.headerMessage p {
+	padding: 10px;
+}
+
+.headerMessage h1 {
+	padding: 10px;
+}
+
+.footerImage img {
+	display: block;
+	height: 150px;
+	width: 100%;
+	padding-bottom: 75px;
+	background-color: #F9E7DC;
+	margin-bottom: 20px;
+}
+
+.headerNav {
+	text-align: center;
+}
+
+.footerNav {
+	margin-top: -65px;
+	text-align: center;
+}
+
+.fire {
+	font-weight: bold;
+}
+
+.park {
+	font-weight: bold;
+}
