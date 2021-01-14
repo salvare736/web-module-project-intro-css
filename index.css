@@ -60,6 +60,7 @@ h1 {
 
 .pageContainer {
 	border: 2px solid gray;
+	width: 70%;
 }
 
 nav {
@@ -165,6 +166,31 @@ nav a {
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+.headerImage {
+	display: inline-block;
+	width: 30%;
+}
+
+.headerMessage {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.headerMessage p {
+	padding: 10px;
+}
+
+.headerMessage h1 {
+	padding: 10px;
 }
 
 .footerImage img {
